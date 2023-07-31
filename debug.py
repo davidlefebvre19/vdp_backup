@@ -24,7 +24,7 @@ def rename_file(source_line):
     first_number = numbers[0]
     second_number = numbers[1]
 
-    new_name = name.group() + " " +first_number + "," +  "." + second_number + "_" +year.group() + "_" +page.group()
+    new_name = name.group() + " " +first_number + "," +  " ." + second_number + "_" +year.group() + "_" +page.group()
     return new_name
 
 def match_regex(lines):

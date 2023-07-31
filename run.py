@@ -3,7 +3,7 @@ import glob
 from PyPDF2 import PdfReader
 import argparse
 from pprint import pprint
-import re
+
 
 regex_year = r'\b\d{4}\b'
 regex_page_range = r'\bpp\.\s*\d+-\d+\b'
